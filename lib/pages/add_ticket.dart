@@ -218,16 +218,16 @@ class _AddState extends State<Add> {
                                   'Select Your Gender',
                                   style: TextStyle(fontSize: 14),
                                 ),
-                                icon: const Icon(
-                                  Icons.arrow_drop_down,
-                                  color: Colors.black45,
-                                ),
-                                iconSize: 30,
-                                buttonHeight: 60,
-                                buttonPadding: const EdgeInsets.only(left: 20, right: 10),
-                                dropdownDecoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(15),
-                                ),
+                                // icon: const Icon(
+                                //   Icons.arrow_drop_down,
+                                //   color: Colors.black45,
+                                // ),
+                                // iconSize: 30,
+                                // buttonHeight: 60,
+                                // buttonPadding:  EdgeInsets.only(left: 20, right: 10),
+                                // dropdownDecoration: BoxDecoration(
+                                //   borderRadius: BorderRadius.circular(15),
+                                // ),
                                 items: genderItems
                                     .map((item) =>
                                     DropdownMenuItem<String>(
@@ -278,16 +278,16 @@ class _AddState extends State<Add> {
                                   'Select Your City',
                                   style: TextStyle(fontSize: 14),
                                 ),
-                                icon: const Icon(
-                                  Icons.arrow_drop_down,
-                                  color: Colors.black45,
-                                ),
-                                iconSize: 30,
-                                buttonHeight: 60,
-                                buttonPadding: const EdgeInsets.only(left: 20, right: 10),
-                                dropdownDecoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(15),
-                                ),
+                                // icon: const Icon(
+                                //   Icons.arrow_drop_down,
+                                //   color: Colors.black45,
+                                // ),
+                                // iconSize: 30,
+                                // buttonHeight: 60,
+                                // buttonPadding: const EdgeInsets.only(left: 20, right: 10),
+                                // dropdownDecoration: BoxDecoration(
+                                //   borderRadius: BorderRadius.circular(15),
+                                // ),
                                 items: FromCity
                                     .map((items) =>
                                     DropdownMenuItem<String>(
@@ -331,16 +331,16 @@ class _AddState extends State<Add> {
                                   'Select Your City',
                                   style: TextStyle(fontSize: 14),
                                 ),
-                                icon: const Icon(
-                                  Icons.arrow_drop_down,
-                                  color: Colors.black45,
-                                ),
-                                iconSize: 30,
-                                buttonHeight: 60,
-                                buttonPadding: const EdgeInsets.only(left: 20, right: 10),
-                                dropdownDecoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(10),
-                                ),
+                                // icon: const Icon(
+                                //   Icons.arrow_drop_down,
+                                //   color: Colors.black45,
+                                // ),
+                                // iconSize: 30,
+                                // buttonHeight: 60,
+                                // buttonPadding: const EdgeInsets.only(left: 20, right: 10),
+                                // dropdownDecoration: BoxDecoration(
+                                //   borderRadius: BorderRadius.circular(10),
+                                // ),
                                 value: selectedToCity,
                                 onChanged: (tovalue) {
                                   setState(() {
@@ -386,16 +386,16 @@ class _AddState extends State<Add> {
                                   'Select Class',
                                   style: TextStyle(fontSize: 14),
                                 ),
-                                icon: const Icon(
-                                  Icons.arrow_drop_down,
-                                  color: Colors.black45,
-                                ),
-                                iconSize: 30,
-                                buttonHeight: 60,
-                                buttonPadding: const EdgeInsets.only(left: 20, right: 10),
-                                dropdownDecoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(10),
-                                ),
+                                // icon: const Icon(
+                                //   Icons.arrow_drop_down,
+                                //   color: Colors.black45,
+                                // ),
+                                // iconSize: 30,
+                                // buttonHeight: 60,
+                                // buttonPadding: const EdgeInsets.only(left: 20, right: 10),
+                                // dropdownDecoration: BoxDecoration(
+                                //   borderRadius: BorderRadius.circular(10),
+                                // ),
                                 value: selectedclass,
                                 onChanged: (newvalue) {
                                   setState(() {
